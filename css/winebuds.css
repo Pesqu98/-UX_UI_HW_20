@@ -1,8 +1,15 @@
 h1, h2, h3 , h4, h5, h6 {
     font-family: 'poppins', sans-serif;
   }
+
+  h4{
+    font-size: 14px;
+    font-weight: bold;
+  }
+
   p {
     font-family: 'poppins', sans-serif;
+    font-size: 14px;
   }
   
   .WJA {
@@ -13,6 +20,7 @@ h1, h2, h3 , h4, h5, h6 {
 
 .customNav {
     position: fixed;
+    justify-content: center;
     width: 100%;
     background: url("../images/transparency.png");
     background-color: #FFFCF7 !important;
@@ -25,16 +33,25 @@ h1, h2, h3 , h4, h5, h6 {
     margin-right: 0 !important;
   }
   .navbar-brand img {
-    padding-right: 15px;
+    padding-left: 15px;
     width: 65px;
   }
   .nav-item {
+    justify-content: center;
     margin-top: 55px;
     MARGIN-LEFT: 55PX;
   }
   
   /* Navigation links */
   .customNav a {
+    color: black !important;
+    font-family: 'poppins', sans-serif;
+  }
+  .navCTA {
+    font-size: 15px;
+  }
+
+  .customNav2 a {
     color: black !important;
     font-family: 'poppins', sans-serif;
   }
@@ -76,17 +93,47 @@ h1, h2, h3 , h4, h5, h6 {
   }
 
   .names{
-    transform: rotate(-90deg);
-    border:0 none;
-    display: inline-block;
-    max-width: 100%;
     justify-content: right;
+    align-items: right;
+    padding-right: 700px;
+    font-family: 'poppins', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
   }
 
   .img moodboard{
     padding-right: 100px;
   }
 
-  .row ul{
-    list-style:none;
+  .proto{
+    height:auto;
+    border:0 none;
+    display: inline-block;
+    max-width: 100%;
+    vertical-align: middle;
+    height: calc(60vh - 25px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    }
+
+  .moodboard{
+    height:auto;
+    border:0 none;
+    display: inline-block;
+    max-width: 100%;
+    vertical-align: middle;
+    height: calc(60vh - 25px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
   }
+
+  .titleside{
+    font-family: 'poppins', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+  }
+
