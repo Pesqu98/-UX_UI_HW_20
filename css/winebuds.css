@@ -1,0 +1,92 @@
+h1, h2, h3 , h4, h5, h6 {
+    font-family: 'poppins', sans-serif;
+  }
+  p {
+    font-family: 'poppins', sans-serif;
+  }
+  
+  .WJA {
+    font-family: 'poppins', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+.customNav {
+    position: fixed;
+    width: 100%;
+    background: url("../images/transparency.png");
+    background-color: #FFFCF7 !important;
+    background-size: cover;
+    z-index: 10;
+    border-bottom: 1px black;
+  }
+  .navbar-nav {
+    margin-left: auto;
+    margin-right: 0 !important;
+  }
+  .navbar-brand img {
+    padding-right: 15px;
+    width: 65px;
+  }
+  .nav-item {
+    margin-top: 55px;
+    MARGIN-LEFT: 55PX;
+  }
+  
+  /* Navigation links */
+  .customNav a {
+    color: black !important;
+    font-family: 'poppins', sans-serif;
+  }
+  .navCTA {
+    font-size: 15px;
+  }
+
+.jumbotron jumbotron-fluid WineBuds{
+    background-size: cover;;
+    background-repeat: no-repeat;
+    height: calc(120vh - 25px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 55px;
+  }
+.jumbotron {
+  background-color: #FFFCF7;
+}
+
+  .jumboCopy {
+    width: 70%;
+    min-width: 500px;
+    max-width: 700px;
+    color: white;
+    text-align: center;
+  }
+
+  .container winebuds_intro{
+
+  }
+
+  .winebuds_logo{
+    height:auto;
+    border:0 none;
+    display: inline-block;
+    max-width: 100%;
+    vertical-align: middle;
+  }
+
+  .names{
+    transform: rotate(-90deg);
+    border:0 none;
+    display: inline-block;
+    max-width: 100%;
+    justify-content: right;
+  }
+
+  .img moodboard{
+    padding-right: 100px;
+  }
+
+  .row ul{
+    list-style:none;
+  }
