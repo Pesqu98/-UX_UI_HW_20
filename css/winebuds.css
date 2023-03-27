@@ -2,10 +2,18 @@ h1, h2, h3 , h4, h5, h6 {
     font-family: 'poppins', sans-serif;
   }
 
+  body { background: #FFFCF7 !important; }
+
   h4{
     font-size: 14px;
     font-weight: bold;
   }
+
+  .btn-link{
+    color: black !important;
+  }
+
+
 
   p {
     font-family: 'poppins', sans-serif;
@@ -19,28 +27,33 @@ h1, h2, h3 , h4, h5, h6 {
   }
 
 .customNav {
+  width: 100%;
+    white-space: nowrap;
     position: fixed;
-    justify-content: center;
-    width: 100%;
-    background: url("../images/transparency.png");
     background-color: #FFFCF7 !important;
-    background-size: cover;
     z-index: 10;
-    border-bottom: 1px black;
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px #999;
+    align-items: center;
   }
+  
   .navbar-nav {
     margin-left: auto;
-    margin-right: 0 !important;
+    margin-right: auto;
   }
   .navbar-brand img {
-    padding-left: 15px;
+    padding-left: 65px;
+    height: 100%
     width: 65px;
   }
   .nav-item {
     justify-content: center;
     margin-top: 55px;
-    MARGIN-LEFT: 55PX;
+    margin-left: 55px;
+    
   }
+  
   
   /* Navigation links */
   .customNav a {
@@ -53,21 +66,12 @@ h1, h2, h3 , h4, h5, h6 {
 
   .customNav2 a {
     color: black !important;
-    font-family: 'poppins', sans-serif;
-  }
+    font-family: 'poppins', sans-serif;}
+
   .navCTA {
     font-size: 15px;
   }
 
-.jumbotron jumbotron-fluid WineBuds{
-    background-size: cover;;
-    background-repeat: no-repeat;
-    height: calc(120vh - 25px);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-top: 55px;
-  }
 .jumbotron {
   background-color: #FFFCF7;
 }
@@ -80,21 +84,30 @@ h1, h2, h3 , h4, h5, h6 {
     text-align: center;
   }
 
-  .container winebuds_intro{
-
+  .jumbotron logohero {
+    color:#345C72;
+    background-image: url("images/winebuds_logo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
   }
 
+
   .winebuds_logo{
-    height:auto;
+    height: auto;
     border:0 none;
     display: inline-block;
     max-width: 100%;
     vertical-align: middle;
+    justify-content: center;
+    align-content: center;
+    color:#345C72;
   }
 
+
   .names{
-    justify-content: right;
-    align-items: right;
+    justify-content: end;
     padding-right: 700px;
     font-family: 'poppins', sans-serif;
     font-weight: bold;
@@ -111,7 +124,6 @@ h1, h2, h3 , h4, h5, h6 {
     display: inline-block;
     max-width: 100%;
     vertical-align: middle;
-    height: calc(60vh - 25px);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -124,7 +136,6 @@ h1, h2, h3 , h4, h5, h6 {
     display: inline-block;
     max-width: 100%;
     vertical-align: middle;
-    height: calc(60vh - 25px);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -136,4 +147,29 @@ h1, h2, h3 , h4, h5, h6 {
     font-weight: bold;
     font-size: 14px;
   }
+.midfi{
+  height:auto;
+    border:0 none;
+    display: inline-block;
+    max-width: 100%;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    }
+.card-header1{
+  background-color: #D4EDF4 !important;
+}
 
+.card-header2{
+  background-color: #FEA07E !important;
+}
+
+.card-header3{
+  background-color: #345C72 !important;
+}
+
+.navbar-toggler collapsed{
+  align-content: right;
+}
